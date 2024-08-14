@@ -66,7 +66,7 @@ nav {
     margin: 0;
 }
 
-.vegailla {
+.shape-stay{
     display: flex;
     gap: 10px;
     align-items: center;
@@ -80,14 +80,14 @@ nav {
     /* font-weight: normal; */
     /* font-style: normal; */
 }
-.main-vegailla {
+.shape {
     font-family: 'MiaMa', sans-serif;
     font-size: 5rem;
     font-weight: 400;
 }
 
 
-.coto-vagailla {
+.stay {
     font-size: 5rem;
     font-weight: 900;
     margin: 0;
@@ -672,14 +672,18 @@ a {
         flex-direction: column;
     }
 
-    .vegailla {
+    .shape-stay {
         gap: 30px;
     }
 
-    .main-vegailla {
+    .shape {
         margin-left: 20px;
-        margin-top: -10px;
-        margin-bottom: -10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .stay{
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .header-button {
